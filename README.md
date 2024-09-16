@@ -103,6 +103,7 @@ Other recommended projects:<br>
     ```bash
     conda create -n real-esrgan python=3.11
     conda activate real-esrgan
+    conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
     # Install basicsr - https://github.com/xinntao/BasicSR
     # We use BasicSR for both training and inference
     pip install basicsr
