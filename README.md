@@ -101,6 +101,8 @@ Other recommended projects:<br>
 1. Install dependent packages
 
     ```bash
+    conda create -n real-esrgan python=3.11
+    conda activate real-esrgan
     # Install basicsr - https://github.com/xinntao/BasicSR
     # We use BasicSR for both training and inference
     pip install basicsr
